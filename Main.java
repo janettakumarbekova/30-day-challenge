@@ -1,6 +1,22 @@
 // my first branch
+// public class Main {
+//     public static void main(String[] args) {
+//         System.out.println("Hello, World!");
+//     }
+// }
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        int age = 25;
+        double price = 19.88;
+        char letter = 'A'; 
+        boolean isJava = true;
+
+        int num = 10;
+        if (num > 0) {
+            System.out.println("Положительное число");
+        } else {
+            System.out.println("Отрицательное число");
+        }
     }
 }
