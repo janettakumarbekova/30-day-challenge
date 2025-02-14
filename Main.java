@@ -21,10 +21,31 @@
 //     }
 // }
 
+// public class Main {
+//     public int add(int a, int b){
+//         return  a + b;
+//     }
+//     public static void main(String[] args) {
+//         Main calc = new Main();
+//         System.out.println(calc.add(4, 5));
+//     }
+// }
+
 public class Main {
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5}; 
-        System.out.println(numbers.length); 
+        Main person = new Main();
+        person.setName("Alice"); 
+        System.out.println(person.getName()); 
     }
 }
 
